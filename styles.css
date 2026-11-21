@@ -382,25 +382,13 @@ body {
 }
 /* Tablet layout adjustments */
 @media (max-width: 768px) {
-  .navbar{
-    /* overflow-x: hidden; */
-  }
-  
+ 
   .logo a {
     font-size: 24px;
     font-weight: 700;
   }
 
-  /* .nav-links {
-    display: none;
-    list-style: none;
-    gap: 24px;
-  }
-
-  .nav-actions {
-    display: none;
-  } */
-
+ 
   /* Show menu when checkbox is checked */
   .hamburger {
     display: block !important;
@@ -408,33 +396,20 @@ body {
     cursor: pointer;
   }
 
-  /* .nav-links,
-  .nav-actions {
-    position: absolute;
-    right: 0;
-    transform: translateX(100%);
-    transition: transform 0.4s ease-in-out;
-  } */
-
   .mobile-menu {
     position: absolute;
     top: 100%;
-    right: 0;
+    right: 100%;
     width: 100%;
     background: white;
     padding: 20px 5%;
     box-sizing: border-box;
 
-    transform: translateX(100%);
+    transform: translateX(0);
     transition: transform 0.4s ease-in-out;
     flex-direction: column;
     align-items: start;
   }
-
-  /* #menu-toggle:checked ~ .nav-links,
-  #menu-toggle:checked ~ .nav-actions {
-    transform: translateX(0);
-  } */
 
   .nav-links {
     display: flex;
@@ -449,7 +424,7 @@ body {
   }
 
   #menu-toggle:checked ~ .mobile-menu {
-    transform: translateX(0);
+    transform: translateX(100%);
   }
 
   .btn {
