@@ -19,6 +19,10 @@ Chatter is a responsive landing page for a text-based blogging and reading platf
 
 ## Getting Started
 
+The deployed site is available at:
+
+<https://chatter-git-main-adeboye-taiwo-jeremiahs-projects.vercel.app/>
+
 1. Clone or download this repository.
 2. Open the project folder.
 3. Open `index.html` in a browser.
@@ -28,8 +32,6 @@ For the best development experience, use the Live Server extension in VS Code:
 1. Install the Live Server extension.
 2. Open `index.html`.
 3. Click **Go Live**.
-
-The site will be available at a local address such as `http://127.0.0.1:5500`.
 
 ## Project Structure
 
